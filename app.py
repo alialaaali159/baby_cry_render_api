@@ -40,3 +40,7 @@ def predict():
         "prediction": predicted_label,
         "confidence": round(confidence, 4)
     })
+
+# ✅ هذا هو السطر المهم لتشغيل السيرفر
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
