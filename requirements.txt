@@ -1,0 +1,4 @@
+flask
+librosa
+tensorflow==2.14.0
+numpy
